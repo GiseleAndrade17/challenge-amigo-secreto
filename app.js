@@ -29,7 +29,7 @@ function atualizarLista() {
   }
 }
 
-function sortearAmigos() {
+function sortearAmigo() {
   if (amigos.length === 0) {
     alert("Nenhum amigo disponível para ser sorteado.");
     return;
@@ -41,4 +41,4 @@ function sortearAmigos() {
   document.getElementById("resultado").innerHTML =
     "Amigo sorteado:" + amigoSorteado;
 }
-sortearAmigos();
+sortearAmigo();
