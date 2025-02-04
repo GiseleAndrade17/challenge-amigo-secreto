@@ -38,6 +38,6 @@ function sortearAmigos() {
 
   const amigoSorteado = amigos[indiceAleatorio];
 
-  document.getElementById("resultado").textContent =
+  document.getElementById("resultado").innerHTML =
     "Amigo sorteado:" + amigoSorteado;
 }
