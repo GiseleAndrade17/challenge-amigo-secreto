@@ -28,7 +28,7 @@ function atualizarLista() {
 }
 
 function sortearAmigos() {
-  if ((amigos.length = 0)) {
+  if (amigos.length === 0) {
     alert("Nenhum amigo disponível para ser sorteado.");
     return;
   }
