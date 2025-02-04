@@ -41,3 +41,4 @@ function sortearAmigos() {
   document.getElementById("resultado").innerHTML =
     "Amigo sorteado:" + amigoSorteado;
 }
+sortearAmigos();
