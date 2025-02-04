@@ -14,6 +14,8 @@ function adicionarAmigo() {
 
   campo.value = "";
   console.log("Lista de amigos:", amigos);
+
+  atualizarLista();
 }
 
 function atualizarLista() {
@@ -36,6 +38,6 @@ function sortearAmigos() {
 
   const amigoSorteado = amigos[indiceAleatorio];
 
-  document.getElementById("resultado").innerHTML =
+  document.getElementById("resultado").textContent =
     "Amigo sorteado:" + amigoSorteado;
 }
